@@ -1,0 +1,14 @@
+System Rules:
+1. If patient is deleted, record can't be viewed anymore
+2. Patient and nurse must fill in medical history and physical exam before doctor wants to enter report
+3. If a field is to be left empty, put '-' don't leave it blank
+4. Only doctor can fill report
+5. User type with privilege:
+    a) admin - can use administrative tools
+    b) doctor - can fill in report
+6. Only choose the 3 basic packages if not additional test is taken, else custom
+7. Check medical history page is only for clerk to double check with patient
+8. Staff should only let patient use the system to fill in medical history
+9. When using both search and filter function to filter result, search before filtering
+10. Search bar on navigation bar will select specific patient only, not search by keyword. In example, enter patient's mrn to view it without finding it in patient's list 
+11. When registering at homepage, enter mrn and click check, if a patient already exist, a form will not be shown, if a patient is not yet registered a form will appear.
